@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("./var.css");
+@import url("./media.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  cursor: pointer;
+}
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: var(--cor-secundaria);
+}
+h1 {
+  margin: 2% auto;
+  font-family: "Libre Baskerville", serif;
+}
+h2 {
+  font-size: 16px;
+}
+body {
+  background-color: var(--cor-background);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Baskervville", serif;
+  color: var(--cor-secundaria);
+}
+.container {
+  width: 45vw;
+  background-color: var(--cor-secundaria);
+  text-align: center;
+  color: var(--cor-primaria);
+  padding: 24px;
+  border-radius: 12px;
+}
+.pricing-table {
+  border-collapse: collapse;
+  text-align: left;
+}
+.pricing-table-header {
+  text-align: center;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 12px;
+  vertical-align: top;
+}
+
+.pricing-table td:not(:last-child),
+.pricing-table th:not(:last-child) {
+  border-right: 1px solid var(--cor-primaria);
+}
