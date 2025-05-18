@@ -60,3 +60,7 @@ body {
 .pricing-table th:not(:last-child) {
   border-right: 1px solid var(--cor-primaria);
 }
+.pricing-table td {
+  border-bottom: 1px solid var(--cor-linha-vertical);
+  padding: 12px 20px;
+}
