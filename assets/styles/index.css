@@ -28,14 +28,13 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Baskervville", serif;
   color: var(--cor-secundaria);
 }
 .container {
-  width: 45vw;
+  width: 60vw;
   background-color: var(--cor-secundaria);
   text-align: center;
   color: var(--cor-primaria);
@@ -49,18 +48,21 @@ body {
 .pricing-table-header {
   text-align: center;
 }
-
 .pricing-table th,
 .pricing-table td {
   padding: 12px;
-  vertical-align: top;
 }
 
-.pricing-table td:not(:last-child),
-.pricing-table th:not(:last-child) {
-  border-right: 1px solid var(--cor-primaria);
+.pricing-table tr:not(:last-child) td::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  right: 10%;
+  height: 1px;
+  background-color: #ccc;
 }
 .pricing-table td {
-  border-bottom: 1px solid var(--cor-linha-vertical);
-  padding: 12px 20px;
+  position: relative;
+  padding: 16px;
 }
