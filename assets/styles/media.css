@@ -1,0 +1,69 @@
+@media screen and (max-width: 381px) {
+  main {
+    height: 100vh;
+  }
+  .pricing-table {
+    display: none; /* esconde tabela original no mobile */
+  }
+
+  .responsive-plans {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+  }
+  .responsive-plan h2 {
+    font-size: 1rem; /* ou ajuste como quiser, ex: 1rem, 1.1rem */
+    text-align: center;
+  }
+  .responsive-plan {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+  .responsive-plan .topico_images {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 382px) and (max-width: 920px) {
+  main {
+    height: 100vh;
+  }
+  .pricing-table {
+    display: none; /* esconde tabela original no mobile */
+  }
+
+  .responsive-plans {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px;
+  }
+
+  .responsive-plan {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .responsive-plan h2 {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+  }
+
+  .responsive-plan .topico_images {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 920px) {
+  .responsive-plans {
+    display: none;
+  }
+}

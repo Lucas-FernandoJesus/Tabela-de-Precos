@@ -48,13 +48,13 @@ body {
 .pricing-table-header {
   text-align: center;
 }
-.plano_1{
+.plano_1 {
   color: var(--cor-gratuito);
 }
-.plano_2{
+.plano_2 {
   color: var(--cor-premium);
 }
-.plano_3{
+.plano_3 {
   color: var(--cor-vip);
 }
 .pricing-table th,
@@ -75,7 +75,7 @@ body {
   position: relative;
   padding: 16px;
 }
-.topico_images{
+.topico_images {
   display: flex;
 }
 .topico_images img {
