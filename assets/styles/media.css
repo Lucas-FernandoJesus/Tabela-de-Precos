@@ -2,6 +2,10 @@
   main {
     height: 100vh;
   }
+  .container {
+    width: 80vw;
+  }
+
   .pricing-table {
     display: none; /* esconde tabela original no mobile */
   }
@@ -33,6 +37,11 @@
   main {
     height: 100vh;
   }
+
+  .container {
+    width: 80vw;
+  }
+
   .pricing-table {
     display: none; /* esconde tabela original no mobile */
   }
@@ -63,6 +72,12 @@
   }
 }
 @media screen and (min-width: 920px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+  }
   .responsive-plans {
     display: none;
   }

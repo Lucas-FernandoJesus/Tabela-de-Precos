@@ -33,8 +33,11 @@ body {
   font-family: "Baskervville", serif;
   color: var(--cor-secundaria);
 }
+main{
+  height: 100vh;
+}
 .container {
-  width: 60vw;
+  /* width: 60vw; */
   background-color: var(--cor-secundaria);
   text-align: center;
   color: var(--cor-primaria);
